@@ -21,20 +21,47 @@ body {
 }
 
 .menu {
-  width: 400px;
+  width: 303px;
   height: 50px;
-  background-color: yellow;
+  //background-color: yellow;
   float: right;
+  position: relative;
 }
 
 .menu ul {
-  padding-top: 12px;
-  padding-left: 5px;
-  padding-right: 5px:
+list-style-type: none;
 }
 
 .menu li{
   display: inline;
+  float:left;
+}
+
+.menu li a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  //background-color: orange;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-top: 10px;
+  //background-color: #AFE0FF;
+  background: linear-gradient(#AFE0FF, #295ea4);
+  color: white;
+  border-left: 1px outset #295ea4;
+  border-bottom: 1px outset #295ea4;
+
+}
+
+.menu li a:hover {
+  background: linear-gradient(#295ea4, #AFE0FF);
+  border-left: 1px inset #AFE0FF;
+  border-bottom: 1px inset #AFE0FF;
+}
+
+.menu .first-button {
+  border-bottom-left-radius: 5px;
 }
 
 .personal-data{
